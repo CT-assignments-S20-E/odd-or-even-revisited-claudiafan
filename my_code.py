@@ -1,4 +1,8 @@
 def even_odd(x):
+    if x%2==0:
+        return("even")
+    else:
+        return("odd")
     # User code goes here
     # function should return "even" if the number (x) is even, and "odd" if the the number is odd
     
